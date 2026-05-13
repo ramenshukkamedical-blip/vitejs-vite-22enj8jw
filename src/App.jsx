@@ -1,5 +1,5 @@
-import './styles/auth.css';
 import { useState } from 'react';
+import './styles/auth.css';
 
 export default function App() {
   const [email, setEmail] = useState('');
@@ -7,7 +7,7 @@ export default function App() {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    alert('Login clicked! (Not connected yet)');
+    alert('Login clicked! (Demo mode)');
   };
 
   return (
